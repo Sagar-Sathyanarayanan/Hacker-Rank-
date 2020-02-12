@@ -35,3 +35,25 @@ The above code prints the contents of string , which is the word "High".
 Then it prints a single space (), followed by the contents of integer .
 Because we also want to ensure that nothing else is printed on this line, we end our line of output with a newline via endl. This results in the following output:
 
+```
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+using std::cout;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int s = 0;
+    int t;
+    while(cin>>t){
+        s+=t;
+    }
+    cout<<s;
+    return 0;
+}
+```
+
